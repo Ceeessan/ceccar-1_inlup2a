@@ -49,8 +49,9 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
-    width: 5rem;
+    max-width: 10rem;
     background-color: rgb(20, 79, 38);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     border-radius: 5px;
     align-items: center;
     text-align: center;
