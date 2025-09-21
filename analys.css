@@ -17,12 +17,8 @@ body{
     background-repeat: no-repeat;
 }
 
+
 .info-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
     padding: 2rem;
     width: 80%;
     height: auto;
@@ -30,18 +26,21 @@ body{
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-#web-developer{
-    color:rgb(20, 79, 38);
+ol{
+    margin-left: 2rem;
+
 }
 
-.section-1{
-    display:flex;
-    flex-direction: column;
-    padding: 2rem;
+li{
+    padding: 0.3rem;
 }
 
-#about-me-description{
-    margin-bottom: 2rem;
+h3{
+    padding:1rem;
+}
+
+p{
+    padding: 1rem;
 }
 
 #link-analysis{
@@ -54,55 +53,10 @@ body{
     border-radius: 5px;
     align-items: center;
     text-align: center;
-    margin: auto;
     transition: background-color ease 0.3s;
+    margin: 1rem;
 }
 
 #link-analysis:hover{
     background-color: rgb(24, 95, 45);
-}
-
-#nature-img{
-    align-items: center;
-    margin: auto;
-    padding: 1rem;
-    width:15rem;
-    height: 15rem;
-}
-
-table{
-    text-align: left;
-}
-
-td{
-    display:flex;
-    flex-direction: column;
-    padding: 0.3rem;
-    
-}
-
-em{
-    color: rgb(24, 95, 45);
-    font-weight: bold;
-}
-
-.section-2{
-    padding: 1rem;
-}
-
-h3{
-    padding: 1rem;
-}
-
-ul{
-    list-style: none;
-}
-
-li{
-    padding:0.2rem;
-}
-
-footer{
-    padding-top: 4rem;
-    padding-bottom: 0px;
 }
